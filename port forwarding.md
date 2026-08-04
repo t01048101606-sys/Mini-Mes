@@ -96,7 +96,7 @@ http://10.10.21.23:8501
 
 ---
 
-## 발표 종료 후 정리 (선택)
+## 종료 후 정리 (선택)
 
 ```powershell
 netsh interface portproxy delete v4tov4 listenport=8501 listenaddress=0.0.0.0
