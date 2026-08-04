@@ -161,7 +161,7 @@ erDiagram
 
 ### 3-2. 역할별 접근 권한
 
-| 페이지 | ADMIN🛡️ | OPERATOR⚙️ | INSPECTOR🔍 |
+| 페이지 | ADMIN(관리자)🛡️ | OPERATOR(작업자)⚙️ | INSPECTOR(검사자)🔍 |
 |---|:---:|:---:|:---:|
 | 품목 관리 | ✅ | ✅ | ✅  |
 | BOM 관리 | ✅ | ✅ | ❌ | 
