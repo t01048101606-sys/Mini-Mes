@@ -9,7 +9,7 @@ WSL 안에서만 열리고 Windows 밖(다른 컴퓨터)에서는 바로 접속�
 
 ---
 
-## 0. 준비 — 발표 컴퓨터의 IP 확인
+## 0. 준비 — 컴퓨터의 IP 확인
 
 Windows PowerShell에서:
 
