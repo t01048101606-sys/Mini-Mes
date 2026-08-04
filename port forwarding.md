@@ -1,4 +1,4 @@
-# 발표용 포트포워딩 설정 가이드 (WSL + Streamlit)
+# 포트포워딩 설정 가이드 (WSL + Streamlit)
 
 WSL(Ubuntu) 안에서 실행 중인 Streamlit 앱을, 같은 네트워크(Wi-Fi/유선)에 있는
 다른 컴퓨터나 휴대폰에서 접속할 수 있게 만드는 절차입니다.
@@ -44,7 +44,7 @@ hostname -I
 나온 IP(예: `172.25.100.134`)를 메모해둡니다.
 
 > ⚠️ **이 IP는 WSL을 재시작(`wsl --shutdown`, 컴퓨터 재부팅 등)하면 바뀔 수 있습니다.**
-> 발표 당일에는 이 단계부터 다시 확인하는 걸 추천합니다.
+
 
 ---
 
@@ -104,13 +104,6 @@ Remove-NetFirewallRule -DisplayName "Streamlit App"
 ```
 
 ---
-
-## 발표 당일 최종 체크리스트
-
-- [ ] WSL에서 Streamlit 실행 중인지 확인
-- [ ] `hostname -I`로 WSL IP가 바뀌지 않았는지 재확인
-- [ ] `netsh interface portproxy show v4tov4`로 규칙이 살아있는지 확인
-- [ ] `ipconfig`로 발표장 네트워크의 이더넷 IP가 그대로인지 확인 (네트워크가 바뀌면 IP도 바뀔 수 있음)
 
 ---
 
