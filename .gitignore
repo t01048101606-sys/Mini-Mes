@@ -1,0 +1,8 @@
+mes/
+venv/
+.venv/
+__pycache__/
+*.pyc
+sql/*.db
+.streamlit/secrets.toml
+*.log
