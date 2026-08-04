@@ -10,7 +10,7 @@ from src.ui import alert_badge, kpi_row, require_role, setup_page, show_datafram
 
 setup_page("재고 현황")
 require_role("ADMIN", "OPERATOR", "INSPECTOR")
-st.title("🔍재고 현황 대시보드")
+st.title("🛡️⚙️🔍재고 현황 대시보드")
 st.markdown("---")
 
 tab_stock, tab_expiring, tab_shortage = st.tabs(
