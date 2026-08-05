@@ -242,6 +242,8 @@ erDiagram
 지금은 라면공장을 예로 만들었지만, 이 구조(품목-LOT-생산-검사-출하)는 업종에 크게 상관없이 재사용할 수 있게 설계. 
 추후 자동차 부품처럼 다른 업종으로도 확장할 계획.
 
+또한 미니 MES 시스템을 3계층 아키텍처(Presentation - Business Logic - Data)로 분리하여
+FastAPI와 PostgreSQL을 연동하여 실무에서 사용되는 표준 백엔드-데이터베이스 연동 패턴 간접 경험
 
 **기존 기술 스택 (As-Is)**
 - 프론트엔드/백엔드 통합: Python (Streamlit)
@@ -253,11 +255,6 @@ erDiagram
 - 백엔드: Python (FastAPI) - RESTful API 기반 리팩토링
 - 데이터베이스: PostgreSQL
 - 인증 방식: Bcrypt(솔트 자동 적용) 및 JWT(JSON Web Token) 기반 토큰 인증
-
-**프로젝트 목표**
-- 미니 MES 시스템을 3계층 아키텍처(Presentation - Business Logic - Data)로 분리
-- FastAPI와 PostgreSQL을 연동하여 실무에서 사용되는 표준 백엔드-데이터베이스 연동 패턴 간접 경험
-
 
 ---
 
