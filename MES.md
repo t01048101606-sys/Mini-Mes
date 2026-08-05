@@ -245,15 +245,22 @@ erDiagram
 또한 미니 MES 시스템을 3계층 아키텍처(Presentation - Business Logic - Data)로 분리하여
 FastAPI와 PostgreSQL을 연동하여 실무에서 사용되는 표준 백엔드-데이터베이스 연동 패턴 간접 경험
 
-**기존 기술 스택 (As-Is)**
+**기존 기술 스택 
+
 - 프론트엔드/백엔드 통합: Python (Streamlit)
+- 
 - 데이터베이스: SQLite
+- 
 - 인증 방식: 아이디 / 단방향 비밀번호 해시 (SHA-256) 기반 로그인
 
-**향후 기술 스택 (To-Be)**
+**향후 기술 스택 
+
 - 프론트엔드: Python (Streamlit)
+- 
 - 백엔드: Python (FastAPI) - RESTful API 기반 리팩토링
+- 
 - 데이터베이스: PostgreSQL
+- 
 - 인증 방식: Bcrypt(솔트 자동 적용) 및 JWT(JSON Web Token) 기반 토큰 인증
 
 ---
